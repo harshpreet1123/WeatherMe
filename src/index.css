@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(30, 190, 165);
+  /* background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out; */
+}
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  padding: 25px;
+}
+
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(220, 220, 220, 0.5);
+  border-radius: 20px;
+
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.05);
+
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:hover {
+  background-color: rgb(225, 225, 225);
+}
+.search-box .search-bar:focus {
+  background-color: rgb(225, 225, 225);
+}
+
+.location-box .location {
+  font-weight: 300;
+  text-align: left;
+  color: #dbdbdbf6;
+  font-size: 28px;
+  margin-left: 5%;
+  text-shadow: 3px 3px 6px rgba(202, 171, 171, 0.39);
+}
+
+.location-box .date {
+  color: #dbdbdbf6;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+}
+
+.weather-box {
+  text-align: left;
+  display: inline-flex;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline;
+  margin: 5%;
+
+  padding: 15px 25px;
+
+  color: #dbdbdbf6;
+  font-weight: 900;
+  font-size: 90px;
+
+  text-align: center;
+
+  text-shadow: 3px 3px 6px rgba(202, 171, 171, 0.39);
+}
+
+/* .weather-box .weather {
+  color: #dbdbdbf6;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 75, 0.5);
+  padding-top: 10px;
+} */
+.open {
+  transition: 0.4s ease-out;
+  color: #dbdbdbf6;
+  text-align: center;
+}
+.open h1{
+  font-size: 48px;
+  margin: 5%;
+}
+
+
+.weather-box .cel-main {
+  font-size: 30px;
+  text-align: left;
+  color: #dbdbdbf6;
+  text-shadow: 3px 3px 6px rgba(202, 171, 171, 0.39);
+}
+
+.cel-main div {
+  margin-top: 35px;
+  margin-left: -20%;
+  margin-bottom: 15%;
+}
+.cel-main .main {
+  margin-top: -5%;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.date {
+  color: #dbdbdbf6;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 5%;
+  text-shadow: 3px 3px 6px rgba(202, 171, 171, 0.39);
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-box {
+  width: 90%;
+  height: auto;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.29);
+  position: relative;
+  margin: 10% 5%;
+}
+
+.details-box h2 {
+  text-align: center;
+  color: #dbdbdbf6;
+  text-shadow: 3px 3px 6px rgba(202, 171, 171, 0.39);
+  padding: 16px;
+}
+
+.col {
+  flex-basis: 40%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  color: #dbdbdbf6;
+  text-shadow: 3px 3px 6px rgba(202, 171, 171, 0.39);
+}
+
+.col p {
+  padding: 0;
+  font-size: 14px;
+}
+
+.col h1 {
+  margin-top: 5%;
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-align: center;
+}
